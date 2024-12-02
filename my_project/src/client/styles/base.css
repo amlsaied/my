@@ -1,0 +1,96 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: rgb(191, 214, 206);
+}
+
+main {
+    flex: 2;
+    section {
+        max-width: 800px;
+        margin: 50px auto;
+    }
+}
+
+/*section {
+    max-width: 800px;
+    margin: 50px auto;
+}*/
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: #ffe4e1; /* Light pink background */
+    color: #5a4d5f; /* Subtle purple-gray for text */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    background-color: #fffaf0; /* Creamy background */
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px 30px;
+    width: 80%;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  h1, p {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-weight: bold;
+    color: #a0522d; /* Chocolate color */
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #ffb6c1; /* Light pink border */
+    border-radius: 8px;
+    font-size: 14px;
+  }
+  
+  input[type="text"]:focus {
+    outline: none;
+    border: 2px solid #ff69b4; /* Hot pink border on focus */
+  }
+  
+  .btn-submit {
+    background-color: #ff69b4; /* Hot pink */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+  
+  .btn-submit:hover {
+    background-color: #ff1493; /* Deeper pink */
+    transform: scale(1.05);
+  }
+  
+  section {
+    margin-top: 20px;
+  }
+  
+  strong {
+    color: #d2691e; /* Chocolate brown */
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  div[id^=""] {
+    background: #f0f8ff; /* Alice Blue for result sections */
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 10px;
+  }
